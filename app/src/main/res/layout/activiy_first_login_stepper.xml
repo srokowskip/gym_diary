@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/firstlogin_layout"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/MyToolbar"
+        android:id="@+id/firstlogin_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:title="@string/first_login" />
+
+    <com.stepstone.stepper.StepperLayout
+        android:id="@+id/stepperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ms_backButtonText="@string/back"
+        app:ms_bottomNavigationBackground="@android:color/transparent"
+        app:ms_completeButtonText="@string/complete"
+        app:ms_nextButtonText="@string/next"
+        app:ms_stepperType="dots" />
+
+</android.support.constraint.ConstraintLayout>

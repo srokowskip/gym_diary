@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_requests"
+        android:icon="@drawable/ic_grade_black_24dp"
+        android:title="@string/requests"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_user_friends"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/my_friends"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="@string/add_friend"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

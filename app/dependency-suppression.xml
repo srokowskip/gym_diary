@@ -1,0 +1,16 @@
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.1.xsd">
+   <suppress>
+      <notes><![CDATA[
+      file name: builder-3.1.4.jar: desugar_deploy.jar
+      ]]></notes>
+      <gav regex="true">^com\.google\.guava:guava:.*$</gav>
+      <cpe>cpe:/a:google:guava</cpe>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+   file name: builder-3.1.4.jar: libthrowable_extension.jar
+   ]]></notes>
+      <sha1>2487babf0b7a86d67f34e5129325ea1e06e55c44</sha1>
+      <cpe>cpe:/a:google:android</cpe>
+   </suppress>
+</suppressions>

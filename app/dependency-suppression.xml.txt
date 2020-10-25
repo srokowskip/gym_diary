@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.1.xsd">
+   <suppress>
+      <notes><![CDATA[
+      file name: builder-3.2.1.jar: libthrowable_extension.jar
+      ]]></notes>
+      <sha1>7c22ab5c084dae036668ba9f3fc1c50d2252d009</sha1>
+      <cpe>cpe:/a:google:android</cpe>
+   </suppress>
+</suppressions>
