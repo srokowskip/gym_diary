@@ -1,2 +1,2 @@
 # GymDiary
-Engineer thesis 2018... :) Despite the mass of imperfections, I am still proud :)
+Engineer thesis 2018... :) Despite the mass of imperfections, I am still proud :) Maybe someday I'll refactor some stuff...
